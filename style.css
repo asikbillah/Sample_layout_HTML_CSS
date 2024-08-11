@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+}
+
+nav{
+    background-color: green;
+    height: 80px;
+}
+
+main{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.container{
+    background-color: aqua;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.box1{
+    background-color: blue;
+    height: 300px;
+    width: 45%;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.box2{
+    background-color: salmon;
+    height: 300px;
+    width: 45%;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.text-box{
+    text-align: center;
+    margin: 50px 200px;
+    padding: 35px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.orangebox{
+    height: 35px;
+    width: 35px;
+    background-color: orange;
+    position: fixed;
+    bottom: 12px;
+    right: 23px;
+    border-radius: 60px;
+}
+
+
+footer{
+    height: 120px;
+    background-color: blueviolet;
+}
